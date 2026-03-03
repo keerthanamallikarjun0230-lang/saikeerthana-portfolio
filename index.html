@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Keerthana | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-text { background: linear-gradient(90deg, #60a5fa, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-[#0f172a] text-slate-200">
+
+    <nav class="fixed w-full z-50 glass py-4">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <span class="text-xl font-bold gradient-text">GSK.</span>
+            <div class="space-x-8 hidden md:block">
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#skills" class="hover:text-blue-400 transition">Skills</a>
+                <a href="#projects" class="hover:text-blue-400 transition">Projects</a>
+                <a href="#contact" class="hover:text-blue-400 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="h-screen flex items-center justify-center pt-20">
+        <div class="text-center px-6">
+            <h2 class="text-blue-400 font-semibold tracking-widest mb-4">HELLO, I AM</h2>
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">G. Sai Keerthana</h1>
+            <p class="text-xl md:text-2xl text-slate-400 mb-8 max-w-2xl mx-auto">
+                Aspiring <span class="text-white">Data Scientist</span> & AI Enthusiast specializing in <span class="gradient-text">Generative AI</span>.
+            </p>
+            <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-medium transition duration-300">Get In Touch</a>
+        </div>
+    </header>
+
+    <section id="about" class="py-20 container mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="glass p-8 rounded-2xl">
+                <h3 class="text-3xl font-bold mb-6 border-b border-blue-500/30 pb-2">About Me</h3>
+                <p class="text-slate-400 leading-relaxed mb-4">
+                    I am currently a 3rd-year B.Tech student passionate about Artificial Intelligence and Data Science. I am actively honing my skills through hands-on workshops, specifically focusing on <span class="text-blue-400">Generative AI</span>.
+                </p>
+                <p class="text-slate-400 leading-relaxed">
+                    My career goal is to become a <strong>Data Analyst</strong>, bridging the gap between raw data and actionable business insights through intelligent systems.
+                </p>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="glass p-6 rounded-xl text-center">
+                    <h4 class="text-blue-400 text-2xl font-bold">3rd Year</h4>
+                    <p class="text-sm">B.Tech Student</p>
+                </div>
+                <div class="glass p-6 rounded-xl text-center">
+                    <h4 class="text-blue-400 text-2xl font-bold">GenAI</h4>
+                    <p class="text-sm">Workshop Focused</p>
+                </div>
+                <div class="glass p-6 rounded-xl text-center">
+                    <h4 class="text-blue-400 text-2xl font-bold">Python</h4>
+                    <p class="text-sm">Core Strength</p>
+                </div>
+                <div class="glass p-6 rounded-xl text-center">
+                    <h4 class="text-blue-400 text-2xl font-bold">SQL</h4>
+                    <p class="text-sm">Database Skills</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 bg-[#0b1120]">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold mb-12 text-center">Technical Arsenal</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 rounded-xl border border-slate-800 hover:border-blue-500/50 transition">
+                    <i class="fas fa-code text-3xl text-blue-500 mb-4"></i>
+                    <h4 class="text-xl font-semibold mb-4">Programming</h4>
+                    <ul class="text-slate-400 space-y-2">
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+                <div class="p-6 rounded-xl border border-slate-800 hover:border-purple-500/50 transition">
+                    <i class="fas fa-chart-bar text-3xl text-purple-500 mb-4"></i>
+                    <h4 class="text-xl font-semibold mb-4">Data Science</h4>
+                    <ul class="text-slate-400 space-y-2">
+                        <li>Pandas & NumPy</li>
+                        <li>Matplotlib</li>
+                        <li>Scikit-learn</li>
+                    </ul>
+                </div>
+                <div class="p-6 rounded-xl border border-slate-800 hover:border-pink-500/50 transition">
+                    <i class="fas fa-brain text-3xl text-pink-500 mb-4"></i>
+                    <h4 class="text-xl font-semibold mb-4">AI / GenAI</h4>
+                    <ul class="text-slate-400 space-y-2">
+                        <li>LLM Basics</li>
+                        <li>Prompt Engineering</li>
+                        <li>Workshop Projects</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 container mx-auto px-6">
+        <h3 class="text-3xl font-bold mb-12">Featured Projects</h3>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="glass overflow-hidden rounded-2xl group">
+                <div class="p-8">
+                    <h4 class="text-2xl font-bold mb-2">House Price Prediction</h4>
+                    <p class="text-slate-400 mb-4">Regression analysis project predicting real estate values based on key features using Scikit-learn.</p>
+                    <div class="flex gap-3">
+                        <span class="text-xs bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full">Python</span>
+                        <span class="text-xs bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full">ML</span>
+                    </div>
+                </div>
+            </div>
+            <div class="glass overflow-hidden rounded-2xl group">
+                <div class="p-8">
+                    <h4 class="text-2xl font-bold mb-2">Movie Recommendation System</h4>
+                    <p class="text-slate-400 mb-4">Built a content-based filtering system using cosine similarity to recommend movies to users.</p>
+                    <div class="flex gap-3">
+                        <span class="text-xs bg-purple-500/20 text-purple-400 px-3 py-1 rounded-full">Data Science</span>
+                        <span class="text-xs bg-purple-500/20 text-purple-400 px-3 py-1 rounded-full">Pandas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-[#0b1120]">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto glass p-10 rounded-3xl">
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl font-bold mb-4">Let's Connect</h3>
+                    <p class="text-slate-400">Open for collaborations and data analyst opportunities.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    <div>
+                        <i class="fas fa-envelope text-blue-500 text-2xl mb-4"></i>
+                        <p class="text-sm font-semibold">Email</p>
+                        <p class="text-slate-400 text-xs break-words">keerthanamallikarjun0230@gmail.com</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone text-blue-500 text-2xl mb-4"></i>
+                        <p class="text-sm font-semibold">Phone</p>
+                        <p class="text-slate-400 text-xs">+91 9391840944</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-map-marker-alt text-blue-500 text-2xl mb-4"></i>
+                        <p class="text-sm font-semibold">Location</p>
+                        <p class="text-slate-400 text-xs">Ananatapur, AP</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center text-slate-500 text-sm border-t border-slate-800">
+        <p>&copy; 2024 G. Sai Keerthana. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
